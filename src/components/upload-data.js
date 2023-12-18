@@ -43,7 +43,7 @@ class RecordsUploader {
 }
 
 const uploader = new RecordsUploader(records);
-/* Uncomment the following line to upload records to Algolia */
+/* Uncomment the line below to upload records to Algolia */
 // uploader.uploadRecords();
 
 export default RecordsUploader;
