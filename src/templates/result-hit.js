@@ -27,7 +27,7 @@ const resultHit = (hit, { html, sendEvent }) => {
         class="result-hit__car"
         onClick="${(event) => {
           event.stopPropagation();
-          sendEvent('conversion', hit, 'Added To Cart', {
+          sendEvent('conversion', hit, 'Product Added To Cart', {
             // Special subtype
             eventSubtype: 'addToCart',
             // An array of objects representing each item added to the cart
